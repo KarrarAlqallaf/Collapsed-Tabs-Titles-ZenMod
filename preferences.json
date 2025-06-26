@@ -1,0 +1,196 @@
+[
+        {
+            "comment": "This section controls Char count for the tab label",
+            "comment2": "Char count from 1-16"
+        },
+    {
+        "property": "uc.theme.comptitle-char-count.1.enabled",
+        "label": "Show 1 character",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.2.enabled",
+        "label": "Show 2 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.3.enabled",
+        "label": "Show 3 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.4.enabled",
+        "label": "Show 4 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.5.enabled",
+        "label": "Show 5 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.6.enabled",
+        "label": "Show 6 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.7.enabled",
+        "label": "Show 7 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.8.enabled",
+        "label": "Show 8 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.9.enabled",
+        "label": "Show 9 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.10.enabled",
+        "label": "Show 10 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.11.enabled",
+        "label": "Show 11 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.12.enabled",
+        "label": "Show 12 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.13.enabled",
+        "label": "Show 13 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.14.enabled",
+        "label": "Show 14 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.15.enabled",
+        "label": "Show 15 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-char-count.16.enabled",
+        "label": "Show 16 characters",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+        {
+            "comment": "This section controls font size for the tab label"
+        },
+     {
+        "property": "uc.theme.comptitle-font-size.05.enabled",
+        "label": "Font size: 0.5rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.06.enabled",
+        "label": "Font size: 0.6rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.07.enabled",
+        "label": "Font size: 0.7rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.08.enabled",
+        "label": "Font size: 0.8rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.09.enabled",
+        "label": "Font size: 0.9rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.10.enabled",
+        "label": "Font size: 1.0rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.11.enabled",
+        "label": "Font size: 1.1rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.12.enabled",
+        "label": "Font size: 1.2rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.13.enabled",
+        "label": "Font size: 1.3rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-font-size.14.enabled",
+        "label": "Font size: 1.4rem",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+        
+    {
+        "property": "uc.theme.comptitle-label-bottom.enabled",
+        "label": "Position label at the bottom (default is top)",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-enable-pinned.enabled",
+        "label": "Enable in pinned tabs",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-label-left.enabled",
+        "label": "Align tab label to the left (default is center)",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-label-right.enabled",
+        "label": "Align tab label to the right (default is center)",
+        "type": "checkbox",
+        "disabledOn": []
+    },
+    {
+        "property": "uc.theme.comptitle-default-text.enabled",
+        "label": "More contrast-y text, may be harder to look at",
+        "type": "checkbox",
+        "disabledOn": []
+    }
+]

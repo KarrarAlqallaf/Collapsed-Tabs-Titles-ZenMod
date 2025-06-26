@@ -1,0 +1,222 @@
+@-moz-document url-prefix("chrome:") {
+  @media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
+    .tabbrowser-tab {
+      /* Unhide the tab title and show only the first comptitle-width letters */
+      min-height: 4rem !important;
+      .tab-label-container {
+        --comptitle-width: 6ch; /*defult char count for labels*/ 
+        width: var(--comptitle-width);
+        font-size: 1rem !important; /* Default or overridden by @media rules */
+        text-align: center;
+        overflow: hidden;  /* Hides any content that goes outside the elementÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs box (no scrolling or spilling over) */
+        position: absolute;
+        text-overflow: ellipsis;
+        
+        
+
+        height: 1.15rem !important;
+        opacity: 1;
+        top: 0;
+        border-radius: 1px;
+        bottom: auto; 
+
+        white-space: nowrap; /* Prevents the text from wrapping to a new line ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ all on one line. */
+        background: color-mix(
+          in srgb,
+          var(--background-color-box) 0%,
+          transparent
+        );
+        font-family: monospace;
+        display: flex !important;
+        mask-image: none !important;
+        color: var(--text-color-deemphasized);
+      }
+
+      /* these Rules controls Char count*/   
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.1.enabled") {
+        .tab-label-container {
+          --comptitle-width: 1ch !important;
+          }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.2.enabled") {
+        .tab-label-container {
+          --comptitle-width: 2ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.3.enabled") {
+        .tab-label-container {
+          --comptitle-width: 3ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.4.enabled") {
+        .tab-label-container {
+          --comptitle-width: 4ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.5.enabled") {
+        .tab-label-container {
+          --comptitle-width: 5ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.6.enabled") {
+        .tab-label-container {
+          --comptitle-width: 6ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.7.enabled") {
+        .tab-label-container {
+          --comptitle-width: 7ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.8.enabled") {
+        .tab-label-container {
+          --comptitle-width: 8ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.9.enabled") {
+        .tab-label-container {
+          --comptitle-width: 9ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.10.enabled") {
+        .tab-label-container {
+          --comptitle-width: 10ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.11.enabled") {
+        .tab-label-container {
+          --comptitle-width: 11ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.12.enabled") {
+        .tab-label-container {
+          --comptitle-width: 12ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.13.enabled") {
+        .tab-label-container {
+          --comptitle-width: 13ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.14.enabled") {
+        .tab-label-container {
+          --comptitle-width: 14ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.15.enabled") {
+        .tab-label-container {
+          --comptitle-width: 15ch !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-char-count.16.enabled") {
+        .tab-label-container {
+          --comptitle-width: 16ch !important;
+        }
+      }
+/*-------------------------------SectionEnds-------------------------------*/   
+
+      /* These rules controls the fount size*/
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.05.enabled") {
+        .tab-label-container {
+          font-size: 0.5rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.06.enabled") {
+        .tab-label-container {
+          font-size: 0.6rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.07.enabled") {
+        .tab-label-container {
+          font-size: 0.7rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.08.enabled") {
+        .tab-label-container {
+          font-size: 0.8rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.09.enabled") {
+        .tab-label-container {
+          font-size: 0.9rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.10.enabled") {
+        .tab-label-container {
+          font-size: 1.0rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.11.enabled") {
+        .tab-label-container {
+          font-size: 1.1rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.12.enabled") {
+        .tab-label-container {
+          font-size: 1.2rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.13.enabled") {
+        .tab-label-container {
+          font-size: 1.3rem !important;
+        }
+      }
+      @media (-moz-bool-pref: "uc.theme.comptitle-font-size.14.enabled") {
+        .tab-label-container {
+          font-size: 1.4rem !important;
+        }
+      }
+/*-------------------------------SectionEnds-------------------------------*/   
+        
+      /* Left alignment */
+      @media (-moz-bool-pref: "uc.theme.comptitle-label-left.enabled") {
+        .tab-label-container {
+          left: 0 !important;
+          right: auto !important;
+        }
+      }
+
+      /* Right alignment */
+      @media (-moz-bool-pref: "uc.theme.comptitle-label-right.enabled") {
+        .tab-label-container {
+          right: 0 !important;
+          left: auto !important;
+        }
+      }
+      /* Disable the "Playing" subtitle */
+      .tab-secondary-label {
+        display: none !important;
+      }
+
+      /* Accent the text when tab is selected */
+      &[selected] {
+        .tab-label-container {
+          color: initial !important;
+        }
+      }
+      
+      /* If user enables bottom positioning */
+      @media (-moz-bool-pref: "uc.theme.comptitle-label-bottom.enabled") {
+        .tab-label-container {
+          top: auto !important;
+          bottom: 0 !important;
+        }
+        }
+            
+      /* Enable on pinned tabs */
+      @media (-moz-bool-pref: "uc.theme.comptitle-enable-pinned.enabled") {
+        .tab-label-container {
+          width: var(--comptitle-width) !important;
+        }
+      }
+      
+      /* Use active text color for all tabs */
+      @media (-moz-bool-pref: "uc.theme.comptitle-default-text.enabled") {
+        .tab-label-container {
+          color: initial !important;
+        }
+      }
+    }
+  }
+  
+}
