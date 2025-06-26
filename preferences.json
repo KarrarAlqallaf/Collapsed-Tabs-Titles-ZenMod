@@ -35,7 +35,7 @@
     },
     {
         "property": "uc.theme.comptitle-char-count.6.enabled",
-        "label": "Show 6 characters",
+        "label": "Show 6 characters (defult)",
         "type": "checkbox",
         "disabledOn": []
     },
@@ -134,7 +134,7 @@
     },
     {
         "property": "uc.theme.comptitle-font-size.10.enabled",
-        "label": "Font size: 1.0rem",
+        "label": "Font size: 1.0rem (default)",
         "type": "checkbox",
         "disabledOn": []
     },
